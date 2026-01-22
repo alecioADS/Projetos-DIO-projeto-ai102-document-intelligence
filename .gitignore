@@ -1,0 +1,18 @@
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente (NUNCA subir)
+.env
+
+# VS Code
+.vscode/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Arquivos de teste locais
+image.png
