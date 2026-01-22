@@ -21,3 +21,13 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run src/app.py
+
+## Configuração de Variáveis de Ambiente
+
+Este projeto utiliza serviços do Azure e requer a criação de um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+```env
+ENDPOINT=<SEU_ENDPOINT_DO_AZURE_DOCUMENT_INTELLIGENCE>
+SUBSCRIPTION_KEY=<SUA_SUBSCRIPTION_KEY_DO_AZURE>
+AZURE_STORAGE_CONNECTION_STRING=<SUA_CONNECTION_STRING_DO_BLOB_STORAGE>
+CONTAINER_NAME=<NOME_DO_CONTAINER>
